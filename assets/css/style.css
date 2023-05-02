@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.black-header{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: flex-end;
+}
+.black-header h5{
+    padding-right:15px;
+}
+
+nav li,nav h2{
+    display:inline;
+    padding-right: 30px;
+}
+
+.headerimg1{
+    width:100%;
+    position:relative;
+    top:-60px;
+    z-index: -1;
+}
+
+.plansformimg{
+    width:65%;
+    display:grid;
+    position:relative;
+    top:-200px;
+    left: 160px;
+    margin-bottom:-190px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width:75vw;
+}
+
+p{
+    font-family: 'montserrat',sans-serif;
+    font-weight: ;
+}
+
+.main-content-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.img-main img{
+    width:100%;
+}
+
+.img-main,.content-main{
+    width:35vw;
+}
+
+.text{
+    font-size:13px;
+    text-align: justify;
+    margin-left:70px;
+    margin-right:60px ;
+}
+
+.signupimg img{
+    width:100%
+}
+
+i{
+    display:flex;
+    padding-right:3px;
+}
+
+.questions{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;   
+    
+}
+.endofpage{
+    background:black;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    padding:0em 5em 0em 2em;
+    
+}
+
+.endofpage p{
+    color:gray
+}
+
+@media(max-width:600px){
+    .main-content-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .content-main,.img-main{
+        width:100%
+    }
+    main{
+        text-align: center;
+    }
+    .img-main{
+        order:-1 /*so that images appear first before text content*/ 
+    }
+}
